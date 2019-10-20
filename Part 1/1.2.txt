@@ -1,0 +1,6 @@
+tintti@Sateenkaarioksennus ~/docker $ docker ps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+tintti@Sateenkaarioksennus ~/docker $ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+tintti@Sateenkaarioksennus ~/docker $ 
+

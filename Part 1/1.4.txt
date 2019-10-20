@@ -1,0 +1,16 @@
+docker pull devopsdockeruh/exec_bash_exercise
+docker images
+docker run -d devopsdockeruh/exec_bash_exercise
+docker container ls -a
+docker start sleepy_swirles 
+docker exec -it sleepy_swirles bash
+root@1fe92b86b95b:/usr/app# ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.2  0.3 592600 29780 ?        Ssl  13:43   0:00 node index
+root        16  3.0  0.0  18192  3112 pts/0    Ss   13:44   0:00 bash
+root        21  0.0  0.0  36640  2668 pts/0    R+   13:45   0:00 ps aux
+root@1fe92b86b95b:/usr/app# tail -f ./logs.txt
+Fri, 18 Oct 2019 13:45:14 GMT
+Secret message is:
+"Docker is easy"
+
